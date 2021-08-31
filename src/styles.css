@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background: white;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 5s;
   -webkit-transition: all 5s;
-  height: 200vh;
-  padding-top: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +45,6 @@ h1:hover {
   grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
   grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
   grid-template-areas: "a b c d" "e f g h";
-  padding-top: 80vh;
   /* transition: 5s;
   -webkit-transition: background-color 5s; */
   height: 100vh;
@@ -65,7 +63,7 @@ div {
   font-weight: bold;
   color: #fff;
   background-color: #222;
-  background-image: url(https://assets.codepen.io/4996277/airport.jpg);
+  background-image: url(https://i.ytimg.com/vi/exfJf2YVdik/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -78,7 +76,7 @@ div {
 
 div:hover {
   background-color: #222;
-  background-image: url(https://assets.codepen.io/4996277/sunset.jpg);
+  background-image: url(https://cdn.shopify.com/s/files/1/0873/8474/articles/image01_dd9b52c4-6aea-4107-a762-2657077bc99c_1600x.jpg?v=1466445080);
   opacity: 0.8;
 
   color: orangered;
